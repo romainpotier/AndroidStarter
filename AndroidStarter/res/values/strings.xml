@@ -1,0 +1,8 @@
+<resources>
+
+	<string name="app_name">AndroidStarter</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="menu_settings">Settings</string>
+	<string name="callRestService">Call Rest Service</string>
+
+</resources>
