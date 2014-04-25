@@ -1,6 +1,9 @@
 AndroidStarter/target
 AndroidStarter/bin
 AndroidStarter/gen
+AndroidStarter/.classpath
+AndroidStarter/.project
+AndroidStarter/.settings
 AndroidStarterApi/target
 AndroidStarterApi/.classpath
 AndroidStarterApi/.project

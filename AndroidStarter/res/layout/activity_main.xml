@@ -17,5 +17,12 @@
         android:layout_height="wrap_content"
         android:text="@string/callRestService"        
         />
+    
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/callRestService"
+         />
 	
 </RelativeLayout>

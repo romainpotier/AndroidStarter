@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project
-	xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" >
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.romainpotier.androidstarter</groupId>
 	<artifactId>AndroidStarter</artifactId>
@@ -23,7 +21,6 @@
 		<android.version>4.1.1.4</android.version>
 		<support-v4.version>r7</support-v4.version>
 		<spring-android-rest-template.version>1.0.1.RELEASE</spring-android-rest-template.version>
-		<acra.version>4.4.0</acra.version>
 	</properties>
 
 	<dependencies>
@@ -55,10 +52,10 @@
 			<version>${spring-android-rest-template.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ch.acra</groupId>
-			<artifactId>acra</artifactId>
-			<version>${acra.version}</version>
-		</dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.3</version>
+        </dependency>
 	</dependencies>
 
 	<build>
